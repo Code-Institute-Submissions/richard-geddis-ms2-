@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Do you know your F1 Drivers</title>
+</head>
+
+<body>
+    <!-- From Bootstrap -->
+    <div class="modal-fade" id="startbegin" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="d-block begin-header">
+                    <h1 class="text-center modal-title">Welcome!</h1>
+                    <button type="button" class="close modal" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2>Match the F1 drivers with their names</h2>
+                </div>
+                <div class="d-block begin-footer">
+                    <button type="button" class="modal-button-style button-hover text-center" data-dismiss="modal">Lets
+                        Start</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="endModal" tabindex="-1" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="d-block modal-header">
+                    <h1 class="text-center end-modal-title">""</h1>
+                    <button type="button" class="close modal" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2 class="end-modal-score">""</h2>
+                </div>
+                <div class="d-block modal-footer">
+                    <button type="button" class="reset-button modal-button-style button-hover text-center"
+                        data-dismiss="modal">Go Again</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <button class="goagain-button-style goagain-button button-hover">Go Again</button>
+            </div>
+
+            <div class="col">
+                <h1 class="title">F1 Drivers Quiz</h1>
+            </div>
+            <div class="col">
+                <h2 class="drivers-count">F1 Drivers:</h2>
+                <h2 class="position">Position:</h2>
+            </div>
+        </div>
+    </header>
+    <main>
+        <img src="assets/images/f1 theme.jpg" class="img-fluid f1theme" alt="background-image" />
+        <button id="button1" class="answer-driver-a answer-button button-hover" value="">Driver A</button>
+        <button id="button2" class="answer-driver-b answer-button button-hover" value="">Driver B</button>
+        <button id="button3" class="answer-driver-c answer-button button-hover" value="">Driver C</button>
+        <button id="button4" class="answer-driver-d answer-button button-hover" value="">Driver D</button>
+
+    </main>
+    <footer class="footer">
+        <h2> This F1 Game was developed by Richard Geddis</h2>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
