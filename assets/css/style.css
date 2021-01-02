@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+/* background image */
+html {
+    min-height: 100%;
+    background-image: url("assets/images/f1 theme.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #CDCDCD;  
+}
+/* Font throughout the game */
+body {
+    font-family: 'Staatliches', cursive;
+}
+
+header {
+    position: absolute;
+}
+
+/* game title */
+.title {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(224, 22, 22);
+    margin-top: 8px;
+}
+
+
+/* Position text */
+.position {
+    font-size: 30px;
+    text-align: right;
+    color: rgb(224, 22, 22);
+}
+/*  drivers-count */
+.drivers-count {
+    font-size: 30px;
+    text-align: right;
+    color: rgb(224, 22, 22);
+    margin-top: 5px;
+}
+
+/* go again button */
+.goagain-button-style {
+    font-size: 30px;
+    text-align: left;
+    background-color: rgb(224, 22, 22);
+    color: white;
+    padding: 0px 5px 0px 5px;
+    border: 3px solid #CDCDCD;
+    border-radius: 10px;
+    margin-top: 17px;
+}
+
+/*  non answer buttons */
+.button-hover:hover {
+    background-color: #4CEC0E;
+}
+.modal-content {
+    background-color: rgb(224, 22, 22);
+    color: white;
+    text-align: center;
+    border: 3px solid #CDCDCD;
+    border-radius: 10px;
+}
+
+.modal-button-style {
+    color: white;
+    background-color: #4CEC0E;
+    border: 3px solid #CDCDCD;
+    border-radius: 10px;
+}
+
+/* Styles all the answer buttons */
+.answer-button {
+    position: absolute;
+    width: 26%;
+    font-size: 30px;
+    background-color: #d41919;
+    color: white;
+    padding: 3px 5px 3px 5px;
+    border: 3px solid #CDCDCD;
+}
+
+/* Styles the top left answer button */
+.answer-driver-a {
+    top: 73%;
+    left: 23%;
+}
+
+/* Styles the top right answer button */
+.answer-driver-b {
+    top: 73%;
+    right: 23%;
+}
+
+/* Styles the bottom left answer button */
+.answer-driver-c {
+    top: 85%;
+    left: 23%;
+}
+
+/* Styles the bottom right answer button */
+.answer-driver-d {
+    top: 85%;
+    right: 23%;
+}
+/* Styles the information in the footer */
+.footer {
+    font-size: 0.5px;
+    color: #CDCDCD;
+    color: #d41919;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0.2%;
+}
+
+/* Ipad and Ipad Pro view */
+@media (max-width: 1024px) {
+
+    /* Styles the main game title in Ipad */
+    .title {
+        font-size: 50px;
+    }
+
+    /* Styles the F1 Position for Ipad*/
+    .drivers-count {
+        width: 90%;
+        height: 40%;
+        margin-top: 150px;
+        margin-left: 5%;
+    }
+
+    /* Styles all the answer buttons in Ipad and ipad pro view */
+    .answer-button {
+        width: 42%;
+        font-size: 50px;
+    }
+
+    /* Styles top left answer button in Ipad and ipad pro view */
+    .answer-driver-a {
+        top: 60%;
+        left: 5%;
+    }
+
+    /* Styles top right answer button in Ipad and ipad pro view */
+    .answer-driver-b {
+        top: 60%;
+        right: 5%;
+    }
+
+    /* Styles bottom left answer button in Ipad and ipad pro view */
+    .answer-driver-c {
+        top: 74%;
+        left: 5%;
+    }
+
+    /* Styles bottom right answer button in Ipad and ipad pro view */
+    .answer-driver-d {
+        top: 74%;
+        right: 5%;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 690px) {
+
+    /* Styles the main game title in mobile view */
+    .title {
+        font-size: 22px;
+        margin-top: 17px;
+    }
+
+    /* Styles the flag count text in mobile view */
+    .drivers-count {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    /* Styles the score text in mobile view */
+    .position {
+        font-size: 15px;
+    }
+
+    /* Styles the reset button in mobile view */
+    .reset-button {
+        font-size: 20px;
+        padding: 3px 5px 0px 5px;
+        margin-top: 17px;
+    }
+
+    /* Styles the flag container in mobile view */
+    .drivers-count {
+        width: 100%;
+        height: 40%;
+        margin-top: 90px;
+        margin-left: 0;
+    }
+
+    /* Styles all the answer buttons in mobile view */
+    .answer-button {
+        width: 100%;
+        font-size: 50px;
+        font-size: 32px;
+        padding: 3px 5px 3px 5px;
+    }
+
+    /* Styles the top answer button in mobile view */
+    .answer-driver-a {
+        top: 55%;
+        left: 0;
+    }
+
+    /* Styles the second from top answer button in mobile view */
+    .answer-driver-b {
+        top: 65%;
+        right: 0;
+    }
+
+    /* Styles the third from top answer button in mobile view */
+    .answer-driver-c {
+        top: 75%;
+        left: 0;
+    }
+
+    /* Styles the bottom answer button in mobile view */
+    .answer-driver-d {
+        top: 85%;
+        right: 0;
+    }
+}
+
+/* Galaxy Fold View */
+@media (max-width: 280px) {
+
+    /* Styles the main game title in galaxy fold view */
+    .title {
+        font-size: 12px;
+    }
+
+    /* Changes the flag count font size in galaxy fold view */
+    .drivers-count {
+        font-size: 12px;
+    }
+
+    /* Changes the score font size in galaxy fold view */
+    .position {
+        font-size: 12px;
+    }
+
+    /* Changes the reset button font size in galaxy fold view */
+    .reset-button {
+        font-size: 10px;
+    }
+}
+
