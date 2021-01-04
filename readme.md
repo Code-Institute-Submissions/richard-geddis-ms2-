@@ -1,6 +1,8 @@
+Do you know your F1 Drivers?
+
 ### Purpose and story behind building the game:
 
-The F1 quiz is a fun game to test your knowledge on the current F1 Drivers.  
+Do you know your F1 Drivers is a fun game to test your knowledge on the current F1 Drivers.  
 
 I wanted to build this game as an F1 Fan from a very small age I have always had a passion for f1 and always loved
 playing the games and thought I should build a game that tests everyones knowledge on their F1 Drivers.
