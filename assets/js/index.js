@@ -61,7 +61,7 @@ function changeCounters() {
 }
 
 function followingdriver() {
-    $(".driver").attr("src", "assets/images/" + driver[driversCount] + "Lewis Hamilton.jpg");
+    $(".driver").attr("src", "assets/images/" + driver[driverCount] + "Lewis Hamilton.jpg");
 }
 function resetButtons() {
     $(".answer-button").css("background-color", "#df9a57");
@@ -69,7 +69,7 @@ function resetButtons() {
 }
 
 function endGame() {
-    if (driversCount === driver.length) {
+    if (driverCount === driver.length) {
         $(".driver").attr("src", "assets/images/" + driver[0] + "George Russel.jpg");
         if (position < driver.length / 2) {
             $(".end-title").text("You Lost!");
@@ -82,11 +82,8 @@ function endGame() {
     }
 }
 
-/**
- * Resets the game.
- */
 function resetGame() {
-    driversCount = 0;
+    driverCount = 0;
     position = 0;
     changeCounters();
     renderNextQuestion();
