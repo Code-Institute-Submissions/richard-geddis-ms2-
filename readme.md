@@ -1,4 +1,4 @@
-##### Do you know your F1 Drivers?
+# Do you know your F1 Drivers?
 
 ### Purpose and story behind building the game:
 
