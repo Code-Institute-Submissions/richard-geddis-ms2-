@@ -32,34 +32,27 @@ before they complete the game.
 
 ### Functionality
 
-1. We will have a welcome message for the player and also a quick message explaining to the player as to how to play the game.
-2. This will be a simple one page site with easy navigation.  There will be 4 multi-choice answers for the player
-to choose from and the pictures of the F1 drivers about.  The player must guess the names of the drivers to complete the game.
+1. We will have a begin button to allow the player to start the game
+2. This will be a simple one page site with easy navigation.  There will be a simple question about F1 and 
 3.  The website will be colourful as I said above.  I want this site to be fun and colourful but at the same time keep it to the 
 same theme as to what you would see on the TV.  This ensures for any F1 fans it looks like a proper F1 game.
-4.  Should the player want to play the game again there will be a go again button the left hand side. This will allow players
-to have another go/
-5.  There will be a driver count and postion.  This allows the user to see how far they have left to go before they completee the game
-and also allows them to see what position they are.  If they get all correct they will be on pole position.
-6.  At the end of every game there will be a message telling the player either you lost or congratulations you know your F1 drivers.
 
 ### Things I left out
 
 • I wanted to be able to add different levels and build more than just a few f1 drivers.  Possible add some MotoGp
 drivers for level 2 and some F2 drivers for level 3 etc.  But at this stage of my course I didnt feel I was able to do
 that yet.
-• I also wanted to build an online score board.  If if Richard, Jamie and Sarah did the game we could see the players positions
-on a score board at the end of every game.
 
 ### structure
 The game will be suited to an audience of any age group.  It will have a clean UX keeping so all players of all ages can find there way around the site.
-The game will have 1 page.  The pictures of the F1 drivers above in a central container and the names of the drivers below which the player will select the correct answer.
+The game will have 1 page.  In the centre of the screen is where the game will be positioned with a question and 4 answers.
 
 ### Skeleton
 
-• A header which will hold the Go Again button, the game title along with the position.
-• There will be a pop up message at the beginning and end of the game.
-• The images of the drivers will be put in the cente of the screen with 4 buttons below for the player to click on.
+
+• There will be a begin buttons  at the start of the game.
+• once you start the game you will be able to go through the questions and try to complete them as best you can
+The computer will inform you by highlighting the correct answer green if you get it wrong.
 • There will be a small footer for the designers name.
 
 ### The Theme
@@ -76,15 +69,12 @@ to the real f1 experience for the F1 fans out there.
 
 ### Features
 
-• Header - Go again button, Game title, The driver count, Position.  
+• Header -  Game title,   
 
-• Body - The top part will hold the images of the f1 drivers and below will be were the 4 clickable answers are held.
+• Body - The top part will hold the questions around and there will be were the 4 clickable answers below
 
-• Lets start Button- When the player first starts the game he or she will have to click lets start.  This is also where
-he or she is given the instructions on how to play the game.
+• Begin Button- When the player first starts the game he or she will have to click begin.  
 
-• Finish Message -  When the player finishes the game he or she will see a message saying either.  Well done you know your F1 Drivers or if you
-got some wrong it will state you lost.  The Go again button will be below for the player to have another go.
 
 ### Technologies
 
