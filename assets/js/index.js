@@ -76,16 +76,7 @@ function clearStatusClass(element) {
   element.classList.remove('wrong')
 }
 
-function evaluateAnswer(incrementScore) {
-    setTimeout(function () {
-        if (incrementScore === true) {
-            score++;
-        }
-        flagCount++;
-        changeCounters();
-        renderNextQuestion();
-    }, 2000);
-}
+
 
 const questions = [
   {
